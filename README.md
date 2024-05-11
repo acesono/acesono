@@ -28,3 +28,14 @@
     <img width=390 src="https://streak-stats.demolab.com/?user=acesono&count_private=true&theme=react&border radius=10"/>
 </div>
 
+<h2 align="center">📫 Reach me</h2>
+<br/>
+<div align="center" >
+    <a href="mailto:acesono53@gmail.com">
+        <img src="https://img.shields.io/badge/gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" target="_blank"/>
+    </a>
+    <a href="https://www.linkedin.com/in/abuma-hinsene-01604129b/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"/>
+    </a>
+
+</div>
