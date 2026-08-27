@@ -1,117 +1,142 @@
-<!-- ═══════════════════════════════════════════════════════════════
-        ABUMA HINSENE  //  AI & AUTOMATION ENGINEER  //  ONLINE
-     ═══════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════════
+     ABUMA HINSENE · AI & AUTOMATION ENGINEER · github.com/acesono
+     ══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=ABUMA%20HINSENE&fontSize=60&fontColor=00F5FF&animation=fadeIn&fontAlignY=35&desc=AI%20%26%20Automation%20Engineer%20%E2%80%A2%20Software%20Engineer&descAlignY=55&descSize=18" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=240&section=header&text=ABUMA%20HINSENE&fontSize=62&fontColor=00F5FF&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20AUTOMATION%20ENGINEER&descAlignY=58&descSize=17" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Orbitron&weight=700&size=26&pause=1000&color=00F5FF&center=true&vCenter=true&width=760&height=60&lines=%3E+SYSTEM+BOOT+COMPLETE...;%3E+Hi+There!+%F0%9F%91%8B+I'm+Abuma+Hinsene;%3E+AI+%26+Automation+Engineer;%3E+I+build+agents%2C+pipelines+%26+workflows;%3E+If+it+repeats%2C+I+automate+it" />
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=700&size=24&pause=900&color=00F5FF&center=true&vCenter=true&width=820&height=54&lines=%24+whoami+--%3E+abuma+hinsene;%24+init+ai_agents+--mode%3Dproduction;%24+deploy+automation+--if-it-repeats-kill-it;%24+status%3A+ONLINE+%E2%97%8F+open+to+work" />
 </div>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/abuma-hinsene-01604129b/"><img src="https://img.shields.io/badge/OPEN_TO-WORK-00F5FF?style=for-the-badge&labelColor=0f0c29" /></a>
-  <img src="https://img.shields.io/badge/FOCUS-AI_%26_AUTOMATION-7B61FF?style=for-the-badge&labelColor=0f0c29" />
-  <img src="https://komarev.com/ghpvc/?username=acesono&style=for-the-badge&color=00F5FF&label=VISITORS" />
-  <img src="https://img.shields.io/github/followers/acesono?style=for-the-badge&color=00F5FF&labelColor=0f0c29&label=FOLLOWERS" />
+  <img src="https://img.shields.io/badge/ROLE-AI_%26_AUTOMATION-00F5FF?style=flat-square&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/BASE-ADDIS_ABABA_·_UTC%2B3-7B61FF?style=flat-square&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-FF6EC7?style=flat-square&labelColor=0d1117" />
+  <img src="https://img.shields.io/github/followers/acesono?style=flat-square&color=00F5FF&labelColor=0d1117&label=FOLLOWERS" />
 </div>
 
 <br/>
 
-<!-- ══════════════════════ ABOUT ══════════════════════ -->
+<!-- ═════════════════════════ 01 · IDENTITY ═════════════════════════ -->
 
-## `~/whoami`
+## <samp>01 · `~/whoami`</samp>
 
-```yaml
-identity:
-  name:      Abuma Hinsene
-  role:      AI & Automation Engineer
-  degree:    B.Sc. Software Engineering — HiLCoE School of
-             Computer Science & Technology (Graduated)
-  location:  Addis Ababa, Ethiopia  🇪🇹
-  timezone:  UTC+3 (EAT)
+```console
+$ cat /etc/profile.d/abuma.conf
 
-what_i_actually_do:
-  - Design and ship LLM-powered agents that do real work
-  - Wire systems together so humans stop copy-pasting between them
-  - Turn manual, repetitive processes into reliable pipelines
-  - Build the software around the AI — APIs, dashboards, integrations
+┌─ IDENTITY ─────────────────────────────────────────────────────────┐
+│  name      Abuma Hinsene                                           │
+│  role      AI & Automation Engineer                                │
+│  degree    B.Sc. Software Engineering · HiLCoE  [GRADUATED]        │
+│  base      Addis Ababa, Ethiopia · UTC+3                           │
+│  langs     Afaan Oromo · Amharic · English                         │
+└────────────────────────────────────────────────────────────────────┘
 
-stack_focus:
-  languages:   [Python, JavaScript, TypeScript, Dart]
-  ai:          [LLM APIs, prompt engineering, RAG, agents, tool use]
-  automation:  [n8n, Make, Zapier, webhooks, cron, schedulers, scrapers]
-  backends:    [FastAPI, Flask, Node.js, REST APIs]
-  data:        [MongoDB, MySQL, PostgreSQL, vector DBs]
+$ systemctl status abuma.service
 
-philosophy:
-  - "If a human does it three times, a machine should do it the fourth."
-  - "An agent without guardrails is just a fast mistake."
-  - "Automate the boring part; keep the judgment part."
-  - "Write code that the next person can read."
-
-fun_facts:
-  - ☕ Debugging fuel - coffee + lo-fi
-  - 🌍 Multilingual - Afaan Oromo · Amharic · English
-  - 🤖 Has automated things nobody asked me to automate
-  - 🎯 Goal - build AI systems that people in my community actually use
+● abuma.service — turning manual work into running software
+     Loaded: loaded (/usr/lib/systemd/abuma.service; enabled)
+     Active: active (running) ● since graduation
+   Main PID: 1337 (shipping)
+     Memory: caffeine-backed
+     CGroup: ├─ agent-orchestrator.py
+             ├─ webhook-listener.js
+             ├─ nightly-etl.cron
+             └─ scraper-pool.worker
 ```
 
 <br/>
 
-<!-- ══════════════════════ WHAT I BUILD ══════════════════════ -->
+<!-- ═════════════════════════ 02 · MANDATE ══════════════════════════ -->
 
-## `~/what_i_build`
+## <samp>02 · `~/mandate`</samp>
 
-<table align="center">
+```python
+class AbumaHinsene(AIEngineer):
+    """I build systems that do the work, not systems that discuss it."""
+
+    def __init__(self):
+        self.focus = ["LLM agents", "workflow automation", "integrations"]
+        self.stack = ["Python", "TypeScript", "JavaScript", "Dart"]
+        self.rule  = "AI is the last step, never the first."
+
+    def solve(self, painful_manual_process):
+        steps = self.map_process(painful_manual_process)
+        steps = [s for s in steps if s.actually_necessary]      # cut waste
+        auto  = [self.automate(s) for s in steps if s.deterministic]
+        smart = [self.add_agent(s) for s in steps if s.needs_judgment]
+        return Pipeline(auto + smart).guardrail().log().monitor()
+
+    def __repr__(self):
+        return "<Abuma · if it repeats three times, it gets automated>"
+```
+
+<br/>
+
+<!-- ═════════════════════════ 03 · CAPABILITIES ═════════════════════ -->
+
+## <samp>03 · `~/capabilities`</samp>
+
+<table>
 <tr>
-<td width="25%" align="center">
+<td width="50%" valign="top">
 
-### 🤖 AI Agents
-`LLM APIs` · `Tool use`
-`RAG` · `Prompting`
-
-Agents that call tools,
-read your data, and
-finish the task — not
-just chat about it.
-
-</td>
-<td width="25%" align="center">
-
-### ⚙️ Automation
-`n8n` · `Make` · `Zapier`
-`Webhooks` · `Cron`
-
-Workflows that run at
-3 AM so nobody has to.
-Retries, logging and
-alerts included.
+#### `[01]` AI AGENTS
+```
+├── LLM API integration
+├── tool-use & function calling
+├── RAG over private data
+├── prompt design + evals
+└── multi-step orchestration
+```
+Agents that call tools, read real
+data and **finish the task**.
 
 </td>
-<td width="25%" align="center">
+<td width="50%" valign="top">
 
-### 🔗 Integrations
-`REST` · `Scraping`
-`Bots` · `APIs`
-
-Gluing CRMs, sheets,
-inboxes and chat apps
-into one system that
-actually talks.
+#### `[02]` AUTOMATION
+```
+├── workflow builders (n8n/Make)
+├── webhooks & event triggers
+├── cron jobs & schedulers
+├── scraping & data capture
+└── retries · logging · alerts
+```
+Pipelines that run at 3 AM so
+**nobody has to**.
 
 </td>
-<td width="25%" align="center">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### 🌐 App Layer
-`FastAPI` · `React`
-`Flutter` · `Databases`
+#### `[03]` INTEGRATIONS
+```
+├── REST / JSON APIs
+├── CRM · sheets · inboxes
+├── chat bots (TG / Slack)
+├── auth & rate limiting
+└── data sync & migration
+```
+Making disconnected tools
+**speak the same language**.
 
-The dashboards, APIs
-and front-ends that
-make automation
-usable by humans.
+</td>
+<td width="50%" valign="top">
+
+#### `[04]` APP LAYER
+```
+├── FastAPI · Flask backends
+├── React dashboards
+├── Flutter mobile clients
+├── SQL / NoSQL / vector DBs
+└── Docker deployment
+```
+The surface that makes automation
+**usable by humans**.
 
 </td>
 </tr>
@@ -119,108 +144,96 @@ usable by humans.
 
 <br/>
 
-<!-- ══════════════════════ HOW I WORK ══════════════════════ -->
+<!-- ═════════════════════════ 04 · PIPELINE ═════════════════════════ -->
 
-## `~/how_i_work`
+## <samp>04 · `~/how_i_work`</samp>
 
 ```mermaid
-graph LR
-    A[🔍 Map<br/>the manual process] --> B[✂️ Cut<br/>what should not exist]
-    B --> C[⚙️ Automate<br/>the deterministic parts]
-    C --> D[🧠 Add AI<br/>only where judgment is needed]
-    D --> E[🛡️ Guardrail<br/>validate · log · alert]
-    E --> F[📊 Measure<br/>time saved · errors caught]
-    F --> A
+flowchart LR
+    A["🔍 MAP<br/>trace the manual process"] --> B["✂️ CUT<br/>delete what shouldn't exist"]
+    B --> C["⚙️ AUTOMATE<br/>deterministic steps"]
+    C --> D["🧠 AUGMENT<br/>AI where judgment lives"]
+    D --> E["🛡️ GUARDRAIL<br/>validate · log · alert"]
+    E --> F["📊 MEASURE<br/>hours saved · errors caught"]
+    F -.->|iterate| A
 
-    style A fill:#0d1117,stroke:#00F5FF,color:#00F5FF
-    style B fill:#0d1117,stroke:#00F5FF,color:#00F5FF
-    style C fill:#0d1117,stroke:#00F5FF,color:#00F5FF
-    style D fill:#0d1117,stroke:#7B61FF,color:#7B61FF
-    style E fill:#0d1117,stroke:#7B61FF,color:#7B61FF
-    style F fill:#0d1117,stroke:#FF6EC7,color:#FF6EC7
+    classDef core fill:#0d1117,stroke:#00F5FF,stroke-width:2px,color:#00F5FF
+    classDef ai fill:#0d1117,stroke:#7B61FF,stroke-width:2px,color:#7B61FF
+    classDef out fill:#0d1117,stroke:#FF6EC7,stroke-width:2px,color:#FF6EC7
+    class A,B,C core
+    class D,E ai
+    class F out
 ```
 
-> **The rule I work by:** AI is the last step, not the first one.
-> Most "AI problems" are process problems wearing a costume.
+> [!NOTE]
+> **Most "AI problems" are process problems wearing a costume.**
+> I map and cut before I automate, and automate before I reach for a model.
+> That order is why the systems still run six months later.
 
 <br/>
 
-<!-- ══════════════════════ STACK ══════════════════════ -->
+<!-- ═════════════════════════ 05 · STACK ════════════════════════════ -->
 
-## `~/tech_stack`
+## <samp>05 · `~/stack`</samp>
 
 <div align="center">
 
-**AI & Automation**
+<samp>**AI · AUTOMATION**</samp>
 
-<img src="https://img.shields.io/badge/LLM_APIs-0d1117?style=for-the-badge&logo=openai&logoColor=00F5FF" />
-<img src="https://img.shields.io/badge/RAG_%26_Vector_DBs-0d1117?style=for-the-badge&logo=databricks&logoColor=00F5FF" />
-<img src="https://img.shields.io/badge/n8n-0d1117?style=for-the-badge&logo=n8n&logoColor=00F5FF" />
-<img src="https://img.shields.io/badge/Make-0d1117?style=for-the-badge&logo=make&logoColor=00F5FF" />
-<img src="https://img.shields.io/badge/Zapier-0d1117?style=for-the-badge&logo=zapier&logoColor=00F5FF" />
-<img src="https://img.shields.io/badge/Selenium-0d1117?style=for-the-badge&logo=selenium&logoColor=00F5FF" />
+![LLM APIs](https://img.shields.io/badge/LLM_APIs-0d1117?style=for-the-badge&labelColor=0d1117&color=00F5FF)
+![RAG](https://img.shields.io/badge/RAG-0d1117?style=for-the-badge&labelColor=0d1117&color=00F5FF)
+![Agents](https://img.shields.io/badge/Agents_%26_Tool_Use-0d1117?style=for-the-badge&labelColor=0d1117&color=00F5FF)
+![n8n](https://img.shields.io/badge/n8n-0d1117?style=for-the-badge&labelColor=0d1117&color=7B61FF)
+![Make](https://img.shields.io/badge/Make-0d1117?style=for-the-badge&labelColor=0d1117&color=7B61FF)
+![Zapier](https://img.shields.io/badge/Zapier-0d1117?style=for-the-badge&labelColor=0d1117&color=7B61FF)
+![Webhooks](https://img.shields.io/badge/Webhooks_%26_Cron-0d1117?style=for-the-badge&labelColor=0d1117&color=FF6EC7)
+![Scraping](https://img.shields.io/badge/Scraping-0d1117?style=for-the-badge&labelColor=0d1117&color=FF6EC7)
 
-**Languages**
+<samp>**LANGUAGES**</samp>
 
-<img src="https://skillicons.dev/icons?i=python,js,ts,dart,java,cs,bash&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,ts,js,dart,java,cs,bash&theme=dark" />
 
-**Frameworks & Runtimes**
+<samp>**FRAMEWORKS · RUNTIMES**</samp>
 
 <img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,react,flutter,tailwind&theme=dark" />
 
-**Data & Infra**
+<samp>**DATA · INFRA**</samp>
 
 <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis,docker,linux&theme=dark" />
 
-**Tools**
+<samp>**TOOLING**</samp>
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,selenium&theme=dark" />
 
 </div>
 
 <br/>
 
-<!-- ══════════════════════ STATS ══════════════════════ -->
+<!-- ═════════════════════════ 06 · ROADMAP ══════════════════════════ -->
 
-## `~/telemetry`
+## <samp>06 · `~/roadmap`</samp>
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=acesono&show_icons=true&count_private=true&hide_border=true&title_color=00F5FF&icon_color=00F5FF&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true" />
-  <img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=acesono&layout=compact&hide_border=true&title_color=00F5FF&text_color=c9d1d9&bg_color=0d1117&langs_count=8" />
-</div>
-
-<div align="center">
-  <img width="90%" src="https://streak-stats.demolab.com/?user=acesono&count_private=true&hide_border=true&background=0d1117&stroke=00F5FF&ring=00F5FF&fire=00F5FF&currStreakLabel=00F5FF&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" />
-</div>
-
-<div align="center">
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=acesono&bg_color=0d1117&color=00F5FF&line=00F5FF&point=ffffff&area=true&hide_border=true" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=acesono&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8" />
-</div>
+<details open>
+<summary><samp><b>▸ EXECUTION LOG — 2026</b></samp></summary>
 
 <br/>
 
-<!-- ══════════════════════ OBJECTIVES ══════════════════════ -->
+```diff
++ [DONE]  B.Sc. Software Engineering · HiLCoE
++ [DONE]  AI automations running in production
+! [WIP]   agent orchestration & evaluation — going deep
+! [WIP]   open-source agent / automation toolkit
+- [TODO]  automation infrastructure for Ethiopian businesses
+- [TODO]  a role where the AI I ship actually matters
+```
 
-## `~/roadmap`
-
-**Post-Grad Objectives — 2026**
-
-- [x] Graduated B.Sc. Software Engineering, HiLCoE
-- [x] Ship AI-powered automations that run in production
-- [ ] Open-source an agent / automation toolkit
-- [ ] Go deep on agent orchestration & evaluation
-- [ ] Build automation infrastructure for Ethiopian businesses
-- [ ] Land a role where the AI I ship actually matters
+</details>
 
 <br/>
 
-<!-- ══════════════════════ CONTACT ══════════════════════ -->
+<!-- ═════════════════════════ 07 · CONTACT ══════════════════════════ -->
 
-## `~/connect`
+## <samp>07 · `~/connect`</samp>
 
 <div align="center">
 
@@ -236,18 +249,19 @@ graph LR
 
 <br/><br/>
 
-**Got a process that eats your week? I will automate it.**
+```console
+$ ./hire-abuma.sh --help
 
-*Open to full-time roles, freelance automation work, and AI projects.*
+USAGE: reach out if you have —
+  → a process that eats hours every week
+  → an AI feature that needs to actually ship
+  → tools that refuse to talk to each other
+
+STATUS: open to full-time · freelance automation · AI projects
+```
 
 </div>
 
-<br/>
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
-</div>
-
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=140&section=footer&text=automate%20everything&fontSize=22&fontColor=00F5FF&fontAlignY=70" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:24243e,50:302b63,100:0f0c29&height=150&section=footer&text=automate%20everything&fontSize=24&fontColor=00F5FF&fontAlignY=72" />
 </div>
