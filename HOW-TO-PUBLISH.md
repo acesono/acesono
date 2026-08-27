@@ -32,6 +32,7 @@ git push origin main
 python tools/gen_panda.py
 ```
 
-Edit `TITLE` near the top of `tools/gen_panda.py` to change the terminal
-title-bar text. There is no speech bubble any more — the script renders the
-art only.
+The script renders the art only — no window chrome, no title bar, no speech
+bubble — cropped tight to the panda's own bounds. The flat dark panel behind
+it is there because the white glyphs of the face would disappear on GitHub's
+light theme; set `BG = None` near the top for a transparent background.

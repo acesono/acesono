@@ -9,7 +9,7 @@
   <img src="https://komarev.com/ghpvc/?username=acesono&label=VISITORS&color=00f5d4&style=for-the-badge" alt="Profile views" />
 </p>
 
-<img src="./assets/panda.svg" alt="Panda terminal art" width="280" />
+<img src="./assets/panda.svg" alt="Panda ASCII art" width="460" />
 
 </div>
 
